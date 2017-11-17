@@ -69,7 +69,7 @@ int main()
 {
 	double * array;
 	unsigned int size;
-	if (size_s(size))
+	if (size_s(size) && size>0)
 	{
 		array = new double[size];
 		if (read(array, size))
